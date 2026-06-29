@@ -14,6 +14,8 @@ This document describes how to restore the project using the provided UpdraftPlu
 * WordPress 6.x
 * **UpdraftPlus Backup/Restore Plugin**
 
+<img src="https://ps.w.org/updraftplus/assets/icon-256x256.jpg">
+
   The UpdraftPlus Backup & Migration Plugin is trusted by the WordPress community to backup, restore and migrate their WordPress websites. UpdraftPlus is actively installed on more than 3 million websites around the world.
 
 ---
