@@ -1,63 +1,125 @@
-Plugin Name: **UpdraftPlus Backup/Restore**
+# 🛍️ JustBuying – Modern WooCommerce E-Commerce Platform
 
-The backup contains the entire production website, including things that should remain private, such as:
+> A production-ready e-commerce website built using WordPress and WooCommerce with a focus on performance, responsive design, SEO, and user experience.
 
-* WordPress source code
-* Themes and plugins
-* Database (users, orders, settings)
-* Uploaded media
-* Potential secrets (depending on configuration)
+> **Note:** This repository is intended for portfolio and educational purposes. Sensitive production configuration, credentials, and client-specific assets are intentionally excluded.
 
-`INSTALLATION.md`
+---
+
+## 🌟 Overview
+
+JustBuying is a feature-rich WooCommerce-based online shopping platform designed to deliver a fast, secure, and scalable shopping experience across desktop and mobile devices.
+
+The project includes complete storefront customization, payment gateway integration, optimized checkout flow, responsive UI, and performance enhancements.
+
+---
+
+## ✨ Features
+
+* 🛒 WooCommerce Store
+* 📦 Product Catalog
+* 🔍 Product Search & Filtering
+* ❤️ Wishlist Support
+* 🛍️ Shopping Cart
+* 💳 Secure Checkout
+* 🚚 Shipping Configuration
+* 🎟️ Coupon & Discount Support
+* 📱 Fully Responsive Design
+* ⚡ Performance Optimized
+* 🔒 Security Best Practices
+* 📈 SEO Friendly
+* 📊 Analytics Integration
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology  | Purpose                   |
+| ----------- | ------------------------- |
+| WordPress   | CMS                       |
+| WooCommerce | E-Commerce                |
+| PHP         | Backend                   |
+| MySQL       | Database                  |
+| HTML5       | Frontend                  |
+| CSS3        | Styling                   |
+| JavaScript  | Client-side Functionality |
+| Apache      | Web Server                |
+
+---
+
+## 📂 Repository Structure
+
+```
+justbuying/
+│
+├── wp-content/
+├── screenshots/
+├── installation.md
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 🚀 Installation
+
+Detailed installation instructions are available in:
+
+```
+installation.md
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots inside the `screenshots/` folder.
 
 Example:
 
-```markdown
-# Installation Guide
+* Home Page
+* Product Listing
+* Product Details
+* Shopping Cart
+* Checkout
+* User Dashboard
+* Admin Dashboard
 
-## Requirements
+---
 
-- PHP 8.2+
-- MySQL 8+
-- Apache/Nginx
-- WordPress 6.x
-- UpdraftPlus Plugin
+## 🔒 Security
 
-## Local Setup
+The following are intentionally excluded:
 
-1. Install WordPress.
-2. Install and activate UpdraftPlus.
-3. Obtain the backup files from the project owner.
-4. Go to:
-   Settings → UpdraftPlus Backups
-5. Upload all backup files.
-6. Click **Restore**.
-7. Restore:
-   - Database
-   - Plugins
-   - Themes
-   - Uploads
-8. Log in using the provided administrator credentials.
+* Production database
+* Environment variables
+* API keys
+* Payment credentials
+* Customer information
+* Email configuration
 
-## Notes
+---
 
-- Backup files are intentionally excluded from this repository.
-- Contact the repository owner for authorized access to production backups.
-```
+## 📄 License
 
-Also add the backup files to `.gitignore`:
+This repository is shared solely as a professional portfolio demonstration.
 
-```gitignore
-# UpdraftPlus backups
-updraft-*.zip
-updraft-*.gz
-updraft-*.crypt
-*.wpress
+Commercial reuse or redistribution of proprietary client assets is not permitted.
 
-# WordPress uploads
-wp-content/uploads/
+---
 
-# Environment
-.env
-```
+## 👨‍💻 Developer
 
+**Lovnish Verma**
+
+Project Engineer • AI/ML Engineer • Full Stack Developer
+
+Portfolio: https://lovnishverma.in
+
+GitHub: https://github.com/lovnishverma
+
+LinkedIn: https://linkedin.com/in/lovnishverma
+
+---
+
+⭐ If you found this project interesting, consider starring the repository.
