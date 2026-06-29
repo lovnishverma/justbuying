@@ -1,5 +1,7 @@
 # 🛍️ JustBuying – Modern WooCommerce E-Commerce Platform
 
+Live Demo: https://justbuying.in
+
 > A production-ready e-commerce website built using WordPress and WooCommerce with a focus on performance, responsive design, SEO, and user experience.
 
 > **Note:** This repository is intended for portfolio and educational purposes. Sensitive production configuration, credentials, and client-specific assets are intentionally password protected.
